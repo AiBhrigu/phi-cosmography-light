@@ -34,3 +34,16 @@ body {
 body.pulse {
   animation: phi-pulse 900ms ease-out 1;
 }
+
+/* Φ · Light · L4 — Dissolve */
+/* Single parameter: opacity */
+/* One-time exit via class .dissolve */
+
+@keyframes phi-dissolve {
+  0%   { opacity: 1; }
+  100% { opacity: 0.995; }
+}
+
+body.dissolve {
+  animation: phi-dissolve 1200ms ease-out 1 forwards;
+}
