@@ -20,3 +20,17 @@ body {
 body {
   animation: phi-breath 18s ease-in-out infinite;
 }
+
+/* Φ · Light · L3 — Pulse */
+/* Single parameter: opacity */
+/* Triggered manually via class .pulse */
+
+@keyframes phi-pulse {
+  0%   { opacity: 1; }
+  40%  { opacity: 0.96; }
+  100% { opacity: 1; }
+}
+
+body.pulse {
+  animation: phi-pulse 900ms ease-out 1;
+}
