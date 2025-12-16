@@ -7,3 +7,16 @@
 body {
   letter-spacing: 0.02em;
 }
+
+/* Φ · Light · L2 — Breath */
+/* Single parameter: opacity */
+
+@keyframes phi-breath {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.985; }
+  100% { opacity: 1; }
+}
+
+body {
+  animation: phi-breath 18s ease-in-out infinite;
+}
