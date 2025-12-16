@@ -1,2 +1,9 @@
 /* Φ · Light */
 /* No effects yet */
+
+/* Φ · Light · L1 — Presence */
+/* Single parameter: letter-spacing */
+
+body {
+  letter-spacing: 0.02em;
+}
